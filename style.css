@@ -1,0 +1,123 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+header {
+    background: linear-gradient(135deg, #6e8efb, #88d3ce);
+    color: #fff;
+    padding: 20px 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.skills li {
+    list-style-type: none;
+}
+
+.project h3 {
+    color: #333;
+}
+
+#contact {
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin: auto;
+    width: 50%;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+}
+
+@media (max-width: 768px) {
+    .skills li, .project {
+        width: 45%;
+    }
+    
+    header nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    #contact {
+        width: 80%;
+    }
+}
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 4px solid black;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); 
+    margin-bottom: 20px;
+    display: inline-block;
+    object-fit: cover;
+}
+
+section {
+    background-color:  white;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 40px;
+    margin: 20px 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+header, footer {
+    border-radius: 0; 
+}
+.telegram-link {
+    display: inline-block;
+    background-color: #0088cc;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.telegram-link:hover {
+    background-color: #007bb5;
+}
+
